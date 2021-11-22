@@ -1,0 +1,6 @@
+<svg>
+    <linearGradient id="orange-gradient" x1="1" y1="1">
+        <stop offset="0%" stopColor="#F14336" />
+        <stop offset="100%" stopColor="#F58808" />
+    </linearGradient>
+</svg>

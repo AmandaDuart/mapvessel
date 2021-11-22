@@ -1,0 +1,166 @@
+{
+    "training_error": {
+        "name": "Training Error",
+        "data": [
+            {
+                "value": 80
+            },
+            {
+                "value": 81.55
+            },
+            {
+                "value": 75.22
+            },
+            {
+                "value": 66.18
+            },
+            {
+                "value": 54.98
+            },
+            {
+                "value": 45.11
+            },
+            {
+                "value": 40.65
+            },
+            {
+                "value": 35.56
+            },
+            {
+                "value": 27.54
+            },
+            {
+                "value": 29.74
+            },
+            {
+                "value": 25.31
+            },
+            {
+                "value": 23.12
+            }
+        ]
+    },
+    "validation_error": {
+        "name": "Validation Error",
+        "data": [
+            {
+                "value": 80
+            },
+            {
+                "value": 81.55
+            },
+            {
+                "value": 75.22
+            },
+            {
+                "value": 66.18
+            },
+            {
+                "value": 54.98
+            },
+            {
+                "value": 45
+            },
+            {
+                "value": 40
+            },
+            {
+                "value": 35
+            },
+            {
+                "value": 27
+            },
+            {
+                "value": 29
+            },
+            {
+                "value": 25
+            },
+            {
+                "value": 23.12
+            }
+        ]
+    },
+    "uncertainty": {
+        "name": "Uncertainty",
+        "data": [
+            {
+                "value": 80
+            },
+            {
+                "value": 81.55
+            },
+            {
+                "value": 75.22
+            },
+            {
+                "value": 66.18
+            },
+            {
+                "value": 54.98
+            },
+            {
+                "value": 45
+            },
+            {
+                "value": 40
+            },
+            {
+                "value": 35
+            },
+            {
+                "value": 27
+            },
+            {
+                "value": 29
+            },
+            {
+                "value": 25
+            },
+            {
+                "value": 23.12
+            }
+        ]
+    },
+    "other_metrics": {
+        "name": "Other Metrics",
+        "data": [
+            {
+                "value": 80
+            },
+            {
+                "value": 81.55
+            },
+            {
+                "value": 75.22
+            },
+            {
+                "value": 66.18
+            },
+            {
+                "value": 54.98
+            },
+            {
+                "value": 45
+            },
+            {
+                "value": 40
+            },
+            {
+                "value": 35
+            },
+            {
+                "value": 27
+            },
+            {
+                "value": 29
+            },
+            {
+                "value": 25
+            },
+            {
+                "value": 23.12
+            }
+        ]
+    }
+}

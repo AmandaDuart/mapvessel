@@ -1,0 +1,30 @@
+@import '/src/index.scss';
+
+.train-progress {
+    //border: 1px solid $orange;
+    & [role='progressbar'] {
+        background-color: $orange;
+    }
+}
+
+.training-tag {
+    background-color: $bgColor !important;
+    color: $orange !important;
+}
+
+.recharts-layer > text,
+.recharts-layer > circle {
+    display: none;
+}
+
+.recharts-tooltip-label {
+    text-transform: capitalize;
+}
+
+.recharts-legend-item {
+    margin-right: 20px !important;
+    .recharts-legend-item-text {
+        color: #666a76 !important;
+        font-size: 14px;
+    }
+}

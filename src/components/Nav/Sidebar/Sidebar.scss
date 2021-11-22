@@ -1,0 +1,22 @@
+@import '/src/index.scss';
+
+.nav-link {
+    transition: all 0.2s linear;
+
+    &:last-child > div > hr {
+        display: none;
+    }
+
+    &.active {
+        color: $white;
+
+        & .nav-link_icon {
+            background: $orangeGradient;
+            border-radius: 100px;
+        }
+    }
+
+    &:hover:not(.active) {
+        color: $grey2;
+    }
+}

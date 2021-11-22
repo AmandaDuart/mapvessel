@@ -1,0 +1,21 @@
+@import '/src/index.scss';
+
+input.file-input {
+    color: $grey !important;
+    border: 1.2px dashed $bgColor2 !important;
+    border-radius: 6px;
+    //border-color: $bgColor2 !important;
+
+    &::placeholder {
+        color: $grey;
+    }
+
+    &.outline:focus,
+    &.filled:focus {
+        box-shadow: 0 0 0 2px rgba($grey, 0.5) !important;
+    }
+
+    &.flushed:focus {
+        box-shadow: 0 2px 0 0 rgba($grey, 0.5) !important;
+    }
+}

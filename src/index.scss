@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$white: #ffffff;
+$grey2: #bebebe;
+$grey: #606165;
+$bgColor2: #333333;
+$bgColor: #222222;
+$black: #000000;
+$black1d1: #1d1d1d;
+$orange: #f58808;
+$negative: #ff4626;
+$neutral: #ffb843;
+$positive: #00c6b3;
+$orangeGradient: linear-gradient(180deg, rgba($orange, 0.8) 0%, rgba(241, 67, 54, 0.8) 100%);
+$blackGradient: linear-gradient(112.8deg, #111111 -2.96%, #000000 95.88%);
+
+body {
+    background: $blackGradient !important;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $white !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.chakra-divider {
+    border-color: $bgColor2 !important;
+}

@@ -1,0 +1,23 @@
+@import '/src/index.scss';
+
+.chakra-tabs.vertical-tabs {
+    .chakra-tabs__tablist {
+        display: flex;
+        flex-direction: column !important;
+        border: 0;
+        align-items: flex-start;
+
+        & > .chakra-tabs__tab,
+        & > .chakra-tabs__tab {
+            width: 100%;
+            font-size: 12px !important;
+            padding: var(--chakra-space-4);
+            border: 0;
+            justify-content: flex-start;
+        }
+    }
+
+    .chakra-tabs__tab-panel {
+        padding: 0;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "labels": [
+        { "label": "Cruise", "value": "cruise" },
+        { "label": "Ferry", "value": "ferry" },
+        { "label": "Freight", "value": "freight" },
+        { "label": "Inflatable", "value": "inflatable" },
+        { "label": "Kayak", "value": "kayak" },
+        { "label": "Sail", "value": "sail" },
+        { "label": "Buoy", "value": "buoy" }
+    ]
+}

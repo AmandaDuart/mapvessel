@@ -1,0 +1,24 @@
+@import '/src/index.scss';
+
+.videocard-item {
+    border-radius: 6px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+    &.selected {
+        border: 1px solid $orange;
+        box-sizing: border-box;
+    }
+
+    & > .cicle-more {
+        background: rgba($black, 0.5);
+    }
+
+    & > .videocard-info {
+        background: $black;
+        opacity: 0.75;
+    }
+}

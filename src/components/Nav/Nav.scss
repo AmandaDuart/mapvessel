@@ -1,0 +1,46 @@
+@import '/src/index.scss';
+
+.nav-link {
+    color: $orange;
+    font-size: 20px;
+    padding: 4px 10px;
+
+    &.active,
+    &:hover {
+        text-decoration: none;
+        border-bottom-color: $orange;
+        border-bottom-width: 2px;
+    }
+}
+
+.m-nav-link {
+    color: $orange;
+    font-size: 18px;
+    & > a {
+        width: 100%;
+        padding: 7px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &.active,
+        &:hover {
+            border-radius: 7px;
+            border: 1px solid rgba($orange, 0.3);
+            box-shadow: 0 0 8px rgba($orange, 0.3);
+        }
+    }
+}
+
+.drawer-button:focus {
+    box-shadow: rgba($orange, 0.3) 0px 0px 0px 3px !important;
+}
+
+.btn-logout {
+    color: $orange !important;
+    font-weight: 200;
+}
+
+.btn-logout:hover {
+    background-color: rgba($orange, 0.12) !important;
+}

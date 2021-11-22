@@ -1,0 +1,13 @@
+.chakra-checkbox__control {
+    background: none !important;
+    border: none !important;
+
+    &:focus,
+    &[data-focus] {
+        box-shadow: none !important;
+    }
+
+    svg {
+        opacity: 1 !important;
+    }
+}

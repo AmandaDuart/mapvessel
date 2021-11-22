@@ -1,0 +1,15 @@
+@import '/src/index.scss';
+
+.chakra-switch__track {
+    background: #afb1b7;
+
+    &[data-checked],
+    &[aria-checked='true'] {
+        background: $orange !important;
+    }
+
+    &:focus,
+    &[data-focus] {
+        box-shadow: none !important;
+    }
+}

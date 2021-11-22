@@ -1,0 +1,23 @@
+@import '/src/index.scss';
+
+.chakra-tabs {
+    color: #606165;
+    border-color: #606165;
+
+    & .chakra-tabs__tab {
+        font-weight: 600;
+        font-size: 14px !important;
+        padding-bottom: 20px !important;
+
+        &[aria-selected='true'],
+        &[data-selected] {
+            color: $orange !important;
+            border-color: $orange !important ;
+        }
+    }
+
+    & .chakra-tabs__tab-panel {
+        padding-inline-end: 0;
+        padding-inline-start: 0;
+    }
+}

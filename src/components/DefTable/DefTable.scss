@@ -1,0 +1,28 @@
+@import '/src/index.scss';
+
+table.custom-table.chakra-table {
+    white-space: nowrap;
+    & th {
+        color: $grey;
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+
+    & tbody > tr {
+        font-size: 14px;
+        & td:first-child {
+            color: $grey;
+            text-decoration-line: underline;
+        }
+        & td:not(:first-child) {
+            color: #e4e4e4;
+            font-weight: 600;
+        }
+    }
+
+    & td,
+    & th {
+        border-color: $bgColor2;
+    }
+}

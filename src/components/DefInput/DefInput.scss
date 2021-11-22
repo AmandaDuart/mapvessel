@@ -1,0 +1,23 @@
+@import '/src/index.scss';
+
+input,
+textarea {
+    color: $grey !important;
+    border-color: $bgColor2 !important;
+    font-size: 12px;
+
+    &::placeholder {
+        font-size: 12px;
+        color: $grey;
+        font-weight: 600;
+    }
+
+    &.outline:focus,
+    &.filled:focus {
+        box-shadow: 0 0 0 2px rgba($grey, 0.5) !important;
+    }
+
+    &.flushed:focus {
+        box-shadow: 0 2px 0 0 rgba($grey, 0.5) !important;
+    }
+}

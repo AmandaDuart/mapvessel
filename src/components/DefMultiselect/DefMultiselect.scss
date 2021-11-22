@@ -1,0 +1,71 @@
+@import '/src/index.scss';
+
+.sel-bottom {
+    .multi-select {
+        & .dropdown-container {
+            & .dropdown-content {
+                transform: translateY(-100%);
+                top: -5px;
+            }
+        }
+    }
+}
+.multi-select {
+    width: 100%;
+
+    & .dropdown-container {
+        background-color: transparent !important;
+        border-color: $bgColor2 !important;
+        font-size: 12px !important;
+        font-weight: 600;
+        color: $grey !important;
+        transition: background-color 0.5s linear;
+        position: relative;
+        &:focus-within {
+            box-shadow: none !important;
+            color: #e4e4e4 !important;
+            border-color: $orange !important;
+        }
+
+        & .dropdown-heading {
+            &:hover {
+                cursor: pointer;
+            }
+
+            & .dropdown-heading-value span {
+                color: $grey;
+            }
+        }
+
+        & .dropdown-content {
+            border-radius: 12px;
+            .panel-content {
+                background-color: $black1d1;
+
+                .search {
+                    input {
+                        background-color: transparent !important;
+                    }
+                }
+                .options {
+                    & label {
+                        & .chakra-checkbox__label {
+                            font-size: 12px !important;
+                            font-weight: 600;
+                        }
+                        &:hover,
+                        &:focus,
+                        &.selected {
+                            background-color: $grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & li {
+        &:hover {
+            background: $bgColor2;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "loss": [
+        {
+            "training_loss": 80,
+            "validation_loss": 75.22,
+            "uncertainity": 66.18
+        },
+        {
+            "training_loss": 81.55,
+            "validation_loss": 54.98,
+            "uncertainity": 45.11
+        },
+        {
+            "training_loss": 40.65,
+            "validation_loss": 35.56,
+            "uncertainity": 27.54
+        },
+        {
+            "training_loss": 29.74,
+            "validation_loss": 25.31,
+            "uncertainity": 23.12
+        },
+        {
+            "training_loss": 80,
+            "validation_loss": 81.55,
+            "uncertainity": 75.22
+        },
+        {
+            "training_loss": 66.18,
+            "validation_loss": 54.98,
+            "uncertainity": 45
+        },
+        {
+            "training_loss": 40,
+            "validation_loss": 35,
+            "uncertainity": 27
+        }
+    ],
+    "accuracy": [
+        {
+            "training_accuracy": 29,
+            "validation_accuracy": 25,
+            "uncertainity": 23.12
+        },
+        {
+            "training_accuracy": 80,
+            "validation_accuracy": 81.55,
+            "uncertainity": 75.22
+        },
+        {
+            "training_accuracy": 66.18,
+            "validation_accuracy": 54.98,
+            "uncertainity": 45
+        },
+        {
+            "training_accuracy": 40,
+            "validation_accuracy": 35,
+            "uncertainity": 27
+        },
+        {
+            "training_accuracy": 29,
+            "validation_accuracy": 25,
+            "uncertainity": 23.12
+        },
+        {
+            "training_accuracy": 80,
+            "validation_accuracy": 81.55,
+            "uncertainity": 75.22
+        },
+        {
+            "training_accuracy": 66.18,
+            "validation_accuracy": 54.98,
+            "uncertainity": 45
+        }
+    ]
+}
